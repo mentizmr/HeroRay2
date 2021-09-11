@@ -47,7 +47,7 @@
 ## NOTE
 Create worker (cloudflare)
 
-<code>addEventListener(
+<blockquote>addEventListener(
     "fetch",event => {
         let url=new URL(event.request.url);
         url.hostname="heroku address nyo";
@@ -56,4 +56,4 @@ Create worker (cloudflare)
             fetch(request)
         )
     }
-)</code>
+)</blockquote>
