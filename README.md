@@ -48,12 +48,12 @@
 Create worker (cloudflare)
 
 <blockquote>addEventListener(
-    "fetch",event => {
-        let url=new URL(event.request.url);
-        url.hostname="heroku address nyo";
-        let request=new Request(url,event.request);
-        event. respondWith(
-            fetch(request)
-        )
-    }
-)</blockquote>
+ "fetch",event => {
+ let url=new URL(event.request.url);
+ url.hostname="heroku address nyo";
+ let request=new Request(url,event.request);
+ event. respondWith(
+ fetch(request)
+ )
+ }
+ )</blockquote>
